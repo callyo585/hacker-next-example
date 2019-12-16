@@ -11,6 +11,7 @@ const Layout = ({ children, title, description, backButton }) => (
 
     <div className="container">
       <nav>
+        <div></div>
         {backButton && (
           <span onClick={() => Router.back()} className="back-button">
             &#x2b05;
